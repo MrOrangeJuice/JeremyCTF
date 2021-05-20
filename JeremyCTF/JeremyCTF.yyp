@@ -1,6 +1,16 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"sOrange","path":"sprites/sOrange/sOrange.yy",},"order":4,},
+    {"id":{"name":"sRed","path":"sprites/sRed/sRed.yy",},"order":2,},
+    {"id":{"name":"sYellow","path":"sprites/sYellow/sYellow.yy",},"order":5,},
+    {"id":{"name":"sGreen","path":"sprites/sGreen/sGreen.yy",},"order":1,},
+    {"id":{"name":"sBlue","path":"sprites/sBlue/sBlue.yy",},"order":0,},
+    {"id":{"name":"sPurple","path":"sprites/sPurple/sPurple.yy",},"order":3,},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":6,},
+    {"id":{"name":"rStage","path":"rooms/rStage/rStage.yy",},"order":1,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -16,7 +26,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rStage","path":"rooms/rStage/rStage.yy",},},
+    {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
